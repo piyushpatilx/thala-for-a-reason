@@ -9,6 +9,9 @@
         #box {
             margin: 10%;
             margin-top: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         #vid {
             margin-right: 10%;
@@ -38,14 +41,16 @@
     <div class="input-group mb-3">
     <input type="search" class="form-control border border-2 border-dark" name="search" id="search" required>
     <button class="btn btn-light text-dark border border-2 border-dark" onclick="meme()">Submit</button ><br>
-    </div>
+  
     <h3 id="msg"></h3>
     <h3 id="msg2"></h3>
     </div>
     <video src="" width="80%" id="vid" loop></video>
-    <footer class="text text-light">
+  <!--  <footer class="text text-light">
         <i>Made by <a href="https://instagram.com/swaroop.patil.x">Swaroop Patil</a></i>
     </footer>
+   -->
+    </div>
 </body >
 <script>
 var search = document.getElementById('search');
